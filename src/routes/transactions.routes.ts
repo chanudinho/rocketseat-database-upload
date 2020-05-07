@@ -61,6 +61,8 @@ transactionsRouter.post(
       filename,
     });
 
+    console.log('teste');
+
     return response.json(transactions);
   },
 );
